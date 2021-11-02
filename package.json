@@ -5,6 +5,8 @@
     "main": " ",
     "scripts": {
       "server-node": "http-server -p 8081"
+      "start": "node your-script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
       "type": "git",
