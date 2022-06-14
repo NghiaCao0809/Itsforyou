@@ -1,11 +1,15 @@
 {
     "name": "birthday",
-    "version": "1.0.0",
+    "version": "1.4.29",
     "description": "Birthday greetings..",
     "main": " ",
+    "engines": {
+      "node": "16.13.0",
+      "npm": "8.1.0"
+    },
     "scripts": {
-      
-      "start": "node your-script.js",
+      "server-node": "http-server -p 8081",
+      "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
